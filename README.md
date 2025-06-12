@@ -38,7 +38,7 @@ pip install google-generativeai
 Create a file called apiKey.py in the root directory:
 
 `apiKey.py`:
-``` python
+```python
 key = "YOUR_GEMINI_API_KEY"
 ```
 ⚠ **DO NOT SHARE this file or commit it to Git. It's ignored by .gitignore.**
@@ -46,7 +46,9 @@ key = "YOUR_GEMINI_API_KEY"
 ## Usage
 Run the app:
 
+```bash
 python aiCaller.py
+```
 Type a message and get a contextual Gemini response streamed into the chat window.
 
 ## License
